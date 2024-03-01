@@ -11,7 +11,7 @@ public class SparkWebServer {
     
     public static void main(String... args){
         Calculadora calculadora = new Calculadora();
-        Palindrome palindrome = new Palindrome();
+        PalindromeClase palindrome = new PalindromeClase();
         port(getPort());
         staticFileLocation("/public");
         get("/hello", (req,res) -> "Hello Docker!");

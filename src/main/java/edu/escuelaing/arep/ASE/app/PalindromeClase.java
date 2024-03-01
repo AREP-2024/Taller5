@@ -1,6 +1,10 @@
 package edu.escuelaing.arep.ASE.app;
 
-public class Palindrome {
+/*
+ * Author: Luisa Bermudez
+ */
+
+public class PalindromeClase {
 
 
     /*

@@ -6,7 +6,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 public class PalindromeTest {
-    private Palindrome palindrome = new Palindrome();
+    private PalindromeClase palindrome = new PalindromeClase();
 
     @Test
     public void deberiSerPalindrome(){
