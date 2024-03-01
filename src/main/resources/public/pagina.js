@@ -49,7 +49,7 @@ function magnitudVector(){
 
 async function llamarAPI(endPoint){
     
-    return await fetch("http://localhost:4567"+endPoint)
+    return await fetch("http://localhost:"+ window.location.port + endPoint)
         .then((response)=>{
             if(!response.ok){
                 throw new Error();
