@@ -100,7 +100,7 @@ http://localhost:34005/sin?num=90
 ```
 http://localhost:34005/cos?num=90
 ```
-![](imagenes/Cos_WEB.png)
+![](imagenes/cos_WEB.png)
 
 * Para comprobar la función **Palíndrome**:
 ```
